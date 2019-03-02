@@ -1,0 +1,14 @@
+div {
+	padding-top: 50px;
+	text-align: center;
+}
+
+.rsvp {
+	margin-right: 15px;
+	text-align: center;
+}
+
+#rsvp input[type="First Name"],
+#rsvp input[type="Last Name"],
+#rsvp input[type="Email Address"],
+#rsvp input[type="Photo Type"] 
