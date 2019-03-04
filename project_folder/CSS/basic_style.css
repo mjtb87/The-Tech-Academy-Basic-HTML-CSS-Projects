@@ -1,3 +1,4 @@
+
 body{
     background-color: #fff;
 }
@@ -89,4 +90,23 @@ HOVER EFFECTS TRANSLATE & TRANSFORM EFFECTS
 
 .squares:nth-child(4):hover{
     background: #77b800;
+}
+
+.button:hover {
+    background-color: #33fb14;
+    color: #fff;
+    cursor: pointer;
+}
+
+/*-------------------------------------------------
+    ANIMATION EFFECT
+    ---------------------------------------------*/
+@keyframes race {
+    0%, 100% {
+        transform: translateY(0px) ;
+        background-image: url("../images/icons/smileyface1.png");
+    }
+    50% {
+        transform: translateY(330px);
+    }
 }
